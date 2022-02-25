@@ -1,0 +1,25 @@
+theme = "base"
+baseURL = "felix.ehrenpfort.de"
+title = "Felix Ehrenpfort"
+
+[author]
+  name = "Felix Ehrenpfort"
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 1
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 2
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/xinau"
+  weight = 3
+
+[markup.highlight]
+  noClasses=false
+
+[taxonomies]
+  tag = "tags"

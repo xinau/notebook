@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover"/>
+
+  <title>
+  {{- with .Title }}{{ . }} &middot; {{ end }}{{ .Site.Title -}}
+  </title>
+  <meta name="author" content="{{ range .Site.Author }}{{ . }}{{ end }}"/>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.Home.Permalink }}/favicon.ico"/>
+  <link rel="sitemap" type="application/xml" title="sitemap" href="{{ .Site.Home.Permalink }}/sitemap.xml"/>
+  <link rel="alternate" type="application/rss+xml" href="{{ .Site.Home.Permalink }}/notes/index.xml" title="{{ .Site.Title }}">
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,500" type="text/css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  {{ if eq .Params.url "/search" -}}
+  <script src="/js/flexsearch.bundle.js"></script>
+  <script src="/js/search.js"></script>
+  {{- end }}
+</head>

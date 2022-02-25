@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="container">
+        <header class="two columns sidebar">
+        {{- partial "header.html" . -}}
+        </header>
+        <main class="ten columns offset-by-two content">
+        {{- block "main" . }}{{- end }} 
+        </main>
+        <footer class="columns offset-by-two">
+        {{- partial "footer.html" . -}}
+        </footer>
+        </div>
+    </body>
+</html>
