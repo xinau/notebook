@@ -1,17 +1,15 @@
 {{ define "main" }}
-
-{{- $pages := dict -}}
-{{- range .Pages -}}
-{{ $pages = merge $pages (dict .Permalink .) }}
-{{- end -}}
-
 <h1>{{ .Title }}</h1>
 <table class="u-full-width listing">
-    {{ range $pages }}
+    {{- $last := "" -}}
+    {{ range .Pages }}
+    {{ if ne $last .Permalink }}
     <tr>
         <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
         <td>{{ .Date.Format "Jan 02, 2006" }}</td>
     </tr>
+    {{ end }}
+    {{ $last = .Permalink }}
     {{ end }}
 </table>
 {{ end }}
