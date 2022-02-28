@@ -5,6 +5,11 @@ title = "Felix Ehrenpfort"
 [author]
   name = "Felix Ehrenpfort"
 
+[languages.en]
+  weight = 1
+[languages.de]
+  weight = 2
+
 [[menu.main]]
   name = "Notes"
   url = "/notes/"
