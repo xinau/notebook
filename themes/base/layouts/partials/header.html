@@ -1,6 +1,6 @@
 <nav>
+    <h1><a href="/">{{ .Site.Title }}</a></h1>
     <ul>
-        <h1><a href="/">{{ .Site.Title }}</a></h1>
         {{ range .Site.Menus.main }}
         <li ><a href="{{ .URL }}">{{ print .Name | safeHTML }}</a></li>
         {{ end }}
