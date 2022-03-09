@@ -1,6 +1,6 @@
 ---
 title: Debian Dockerfile Set Pipefail
-date: 2020-02-08T11:46:08Z
+date: 2022-02-08T11:46:08Z
 tags: ["debian", "container", "container/dockerfile", "container/podman"]
 ---
 
