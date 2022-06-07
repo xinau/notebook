@@ -15,7 +15,7 @@ I’m naturally curious and love learning, so the set of things that I find inte
 Which may be a reason why one of the first programming language I've learned was Common Lisp. Nowadays, I do most
 programming related tasks in Golang, Python, Bash or AWK.
 
-The intention of this project is to share thoughts, notes and ideas from daily adventures. Therefore, notes can be
+The intention of this project is to share thoughts, notes and ideas of my daily adventures. Therefore, notes can be
 incomplete and outdated. In case you want to report or contribute, please feel welcome to open an [issue][1] or
 [pull request][2].
 
