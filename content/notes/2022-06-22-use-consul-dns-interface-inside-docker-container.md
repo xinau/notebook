@@ -57,5 +57,5 @@ or globally through the daemon configuration file `/etc/docker/daemon.json` as f
 [consul.io:docs:discovery]: https://www.consul.io/docs/discovery/dns
 [docs.docker.com:config:containers:networking]: https://docs.docker.com/config/containers/container-networking/#dns-services
 [freedesktop.org:systemd:resolved:dnsstublistnerextra]: https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSStubListenerExtra=
-[github.com:moby:libnetwork:resolveconf.go]:https://github.com/moby/libnetwork/blob/f6ccccb1c082a432c2a5814aaedaca56af33d9ea/resolvconf/resolvconf.go#L29-L54
-[learn.hashicorp.com:tutorials:consul:dns-forwarding]:https://learn.hashicorp.com/tutorials/consul/dns-forwarding#systemd-resolved-setup
+[github.com:moby:libnetwork:resolveconf.go]: https://github.com/moby/libnetwork/blob/f6ccccb1c082a432c2a5814aaedaca56af33d9ea/resolvconf/resolvconf.go#L29-L54
+[learn.hashicorp.com:tutorials:consul:dns-forwarding]: https://learn.hashicorp.com/tutorials/consul/dns-forwarding#systemd-resolved-setup
