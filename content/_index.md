@@ -6,7 +6,7 @@ url: /
 
 I'm Felix Ehrenpfort and this is my small web presence.
 
-Currently, I'm working as a _Site Reliability Engineer_ at codecentric AG.
+Currently, I'm working as a _Software Engineer_ at [Planet Labs](https://www.planet.com/).
 
 Besides, reading papers, books and bad Go moves, I've been reporting, fixing and developing bugs in various open-source
 projects over the past years.
