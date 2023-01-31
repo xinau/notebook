@@ -106,7 +106,7 @@ Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an m
 
 ## 3. Hosting
 
-### Netlify
+### Render
 
 Die Website wird vom Provider [Render][render.com] gehostet. Ich habe mit Render einen Vertrag zur Auftragsverarbeitung (AVV)
 abgeschlossen.
